@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class StudentsDetails{
+public static void main(String args)
+{Scanner object=new Scanner(System.in);
+System.out.printIn("Enter Name,DOB,Regno,Course,Unitstaken,Semester")
+String Name=object.nextLine();int
+DOB=object.nextInt();int Regno
+=object.nextLine();String Course
+=object.nextLine();int Unitstaken
+=object.nextInt();int Semester=object.nextInt();
+Sytstem.out.printIn("Name is"+Name);
+System.out.printIn("DOB is"=DOB);System.out.printIn("Regno is"+Regno);
+System.out.printIn("Course is"+course);System.out.printIn("Units taken is"+Unitstaken);
+System.out.printIn("Semester is"+Semester);}}
+                              
