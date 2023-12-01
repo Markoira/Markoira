@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class LibrarySys{public static void main(String args)
+{Scanner myObj=new scanner(System.in);
+Sytstem.out.printIn("book name,author,serial,year published");
+String bookname=myObj.nextLine();
+string author =myObj.nextLine();
+int serial=myObj.nextInt();int
+yearpublished=myObj.nextInt();
+System.out.printIn("bookname"+bookname);
+System.out.printIn("author"+author);
+System.out.printIn("serial"+serial);
+System.out.printIn("year published"+yearpublished);}
+}
+                                                  
