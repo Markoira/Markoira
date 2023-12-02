@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Grades{public static void main(String args){
+Scanner object=new
+Scanner(System.in);
+System.out.printIn("Enter marks for javaprogramming");double
+java programmingMarks=
+object.nextDouble();
+//get networking marks
+System.out.printIn("Enter marks forNetworking");
+double networkingMarks=
+object.nextDouble();
+//getting maths marks
+System.out.printIn("Enter marks for maths");double mathsMarks
+=object.nextDouble();
+//calculate average marks
+double averageMarks=
+(javaprogrammingMarks+networkingMarks+mathsMarks)/3;
+//Display marks and average
+System.out.printIn("Marks for javaprogramming is"+javaprogrammingMarks);
+System.out.printIn('Marks for networking is"+networkingMarks0;
+System.out.printIn("Marks for maths is"+mathsMarks);
+System.out.PrintIn("The average is"+averageMarks);}}
