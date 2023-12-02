@@ -1,0 +1,17 @@
+package com.triangle;
+import java.util.Scanner;
+public class AreaofTriangleCalculator{
+  public static void main(String args)
+  {AreaofTriangleCalculator calculator
+   =new AreaofTriangleCalculator();calculator.calculateAndDisplayArea9);}
+  private double getBaseFromUser()
+  {Scanner scanner=new
+   Scanner(System.in);
+   System.out.print("Enter the base of the triangle:");return
+   Scanner.nextDouble();}
+  private double calculateArea(double base,double height){return 0.5*base*height;}
+  private void displayArea(double area)
+  {System.out.printIn("The area of the triangle is:"+area);}
+  public void
+  calculateAndDisplayArea(){double base=getBaseFromUser();double height=getHeightFromUser();double area=calculateArea(base,height);displayArea(area);}
+  }
